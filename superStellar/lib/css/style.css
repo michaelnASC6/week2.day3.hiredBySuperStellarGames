@@ -2,18 +2,31 @@ body{
     background-image: url("shooting-background.jpg");
     background-size: cover;
     color: white;
-     border: solid white;
-    border-radius: 6px; 
-     height: 100%px;
-    margin: 0;
-    padding: 0; 
-    
+    border: solid black;
+    border-width: 3px;
 }
 
 .company_name{
     display: flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
+}
+
+h1{
+    border: solid black;
+    padding: 5px;
+    border-radius: 4px;
+    background: black;
+}
+
+h2{
+    border: solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: black;
+    border-radius: 4px;
+    color: red;
 }
 
 #bullet-force-pic{
@@ -30,25 +43,31 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    /* border: solid white; */
-
 }
 
 .bullet-force{
     border: solid white;
-    margin-bottom: 15px;
-
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: black;
+    opacity: 0.8;
 }
 
 .combat5{
     border: solid white;
     margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.8;
 }
 
 .subway-clash{
     border: solid white;
     margin-bottom: 15px;
-
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.8;
 }
 
 #combat5{
